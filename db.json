@@ -1,0 +1,43 @@
+{
+  "users": [
+    {
+      "email": "admin@mail.ru",
+      "password": "$2a$10$jHrye7Gcl7sIlhXpU.6VwODmyoWYvK4k2loKwXedbpra468w9H3dq",
+      "id": 125
+    }
+  ],
+  "contacts": [
+    {
+      "id": 1,
+      "name": "Aleksandr Povetkin"
+    },
+    {
+      "id": 2,
+      "name": "Dmitry Bivol"
+    },
+    {
+      "id": 3,
+      "name": "Vasiliy Lomachenko"
+    },
+    {
+      "id": 4,
+      "name": "Floyd Mayweather Jr"
+    },
+    {
+      "id": 5,
+      "name": "Mike Tyson"
+    },
+    {
+      "id": 6,
+      "name": "Ryan Garcia"
+    },
+    {
+      "id": 7,
+      "name": "Roy Jones"
+    },
+    {
+      "id": 8,
+      "name": "sdv"
+    }
+  ]
+}

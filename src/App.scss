@@ -1,0 +1,100 @@
+* {
+  font-family: 'Mulish';
+  font-weight: 500;
+  color: black;
+}
+
+body {
+  margin: 0;
+  button {
+    background-color: white;
+    font-weight: 600;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 1px #cbcbcb;
+  }
+  input {
+    border: 0px;
+    height: 24px;
+    border-radius: 7px;
+    box-shadow: 2px 2px 2px 1px rgb(196 59 255 / 48%);
+    :active,
+    :focus,
+    :hover {
+      outline: none !important;
+      outline-offset: 0;
+    }
+  }
+  .container {
+    background-color: #edeef0;
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 20px;
+    .header {
+      background-color: #cbcbcb;
+      padding: 20px;
+      border-radius: 20px;
+      .nav_box {
+        margin: 0 auto;
+        // max-width: 200px;
+        display: flex;
+        flex-direction: column;
+      }
+      .header_link {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10px;
+        ::after {
+          margin: 0 auto;
+          display: block;
+          position: relative;
+          top: 5px;
+          width: 45px;
+          height: 3px;
+          background-image: linear-gradient(-45deg, #fc1ba6, #4094f6);
+          content: '';
+        }
+      }
+      input {
+        margin: 0 auto;
+      }
+    }
+    .content {
+      .contact_list {
+        padding-left: 55px;
+        button {
+          margin-right: 10px;
+        }
+        .contact_item {
+          margin-bottom: 10px;
+          .edit_cont_box {
+            margin-top: 10px;
+            display: none;
+          }
+        }
+      }
+      .cont_list_header {
+        margin-top: 30px;
+        :nth-child(n) {
+          margin-right: 10px;
+        }
+      }
+      .login_box {
+        .login_form {
+          margin: 0 auto;
+          display: flex;
+          flex-direction: column;
+          width: 200px;
+          :nth-child(n) {
+            margin-bottom: 10px;
+          }
+        }
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
